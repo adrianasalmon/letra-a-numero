@@ -13,7 +13,7 @@ namespace Numeroaletra.Controllers
     public class LiteralController : ControllerBase
     {
         [HttpGet]
-        public string Literalget(int numero)
+        public string LiteralGet(int numero)
         {
             return Conversores.NumeroALetras(numero);
         }
